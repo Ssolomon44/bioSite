@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Just Another Hand', cursive; /* Font resembling a young boy's handwriting */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #A3CFF9; /* Light Blue Background */
+    color: #333;
+    text-align: center; /* Center text for the whole page */
+    min-height: 100vh; /* Ensure the background color covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007BFF; /* Bright Blue */
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* White Box Styles for Top Content (Index and About Pages) */
+.container {
+    background-color: white; /* White background for all content boxes */
+    border: 2px solid #333; /* Consistent border for all content boxes */
+    padding: 20px; /* Padding inside the white box */
+    margin: 20px auto; /* Auto margin for centering */
+    width: 60%; /* Set a consistent width for all boxes */
+    max-width: 600px; /* Limit the maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for effect */
+    text-align: center;
+}
+
+/* Portrait Section */
+.portrait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.portrait img {
+    width: 250px; /* Fixed width for portrait image */
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+/* Image Gallery Section for Index Page */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px; /* Limit the gallery width */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.image-item {
+    background-color: white; /* White background for consistency */
+    width: 300px; /* Fixed width for each image item */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #333;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow effect */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    max-height: 250px; /* Limit the maximum height */
+}
+
+/* Hobby Descriptions Section */
+.hobbies {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between items */
+    margin: 20px auto; /* Center the container on the page */
+    max-width: 900px; /* Limit the maximum width of the container */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    padding: 20px; /* Add padding for breathing room */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Hobby Item Styles */
+.hobby-item {
+    background-color: white;
+    width: calc(33% - 40px); /* Dynamic width for three items per row with gap */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+    margin: 10px; /* Add margin for spacing between items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Style for images in hobbies */
+.hobby-item img {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+    border: 2px solid #333; /* Border around the image for consistency */
+    max-height: 200px; /* Limit the maximum height of the images */
+}
+
+/* Footer Section */
+footer {
+    background-color: #007BFF; /* Same Bright Blue as navigation */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+/* External Links in Footer */
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+
